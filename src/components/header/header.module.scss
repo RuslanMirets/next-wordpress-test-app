@@ -1,0 +1,20 @@
+.root {
+	margin-bottom: 40px;
+	background-color: #333;
+	color: #fff;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 80px;
+}
+.navList {
+	display: flex;
+	gap: 16px;
+
+	li {
+		font-size: 18px;
+		line-height: 26px;
+	}
+}
