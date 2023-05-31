@@ -2,6 +2,7 @@ import { getPosts } from "@/api/wp-api";
 import Heading from "@/components/Heading/Heading";
 import Container from "@/components/container/Container";
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -22,6 +23,14 @@ export default async function Blog() {
 						</li>
 					))}
 				</ul>
+				<div>
+					<Image
+						src="/c734fe2d7d109e8899f86084d2cba652.jpg"
+						width={600}
+						height={200}
+						alt="Image"
+					/>
+				</div>
 			</Container>
 		</div>
 	);
